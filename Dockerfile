@@ -10,3 +10,5 @@ RUN chown -R root:www-data /srv/app \
 && a2enmod rewrite
 
 RUN chown -R root:www-data /srv/app/storage
+
+RUN chown -R root:www-data /srv/app/bootstrap

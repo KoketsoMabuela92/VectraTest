@@ -16,5 +16,8 @@ class DatabaseSeeder extends Seeder
 
         // User seeder will use the roles above created.
         $this->call(UserTableSeeder::class);
+
+        //Albums seeder
+        $this->call(AlbumsTableSeeder::class);
     }
 }

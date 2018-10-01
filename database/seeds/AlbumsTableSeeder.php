@@ -14,50 +14,50 @@ class AlbumsTableSeeder extends Seeder
     {
         $albumObject = new Album();
         $albumObject->user_id = 1;
-        $albumObject->album_name = 'Album 1';
-        $albumObject->album_artist = 'Artist 1';
+        $albumObject->album_name = 'Arise';
+        $albumObject->album_artist = 'Madonna';
         $albumObject->album_price = 79.90;
-        $albumObject->album_cover_path = '../storage/app/public/album1.jpg';
+        $albumObject->album_cover_path = 'album1.jpeg';
         $albumObject->save();
 
         $albumObject = new Album();
         $albumObject->user_id = 1;
-        $albumObject->album_name = 'Album 2';
-        $albumObject->album_artist = 'Artist 2';
-        $albumObject->album_price = 79.90;
-        $albumObject->album_cover_path = '../storage/app/public/album2.jpg';
+        $albumObject->album_name = 'Lately';
+        $albumObject->album_artist = 'Drake';
+        $albumObject->album_price = 344.90;
+        $albumObject->album_cover_path = 'album2.png';
         $albumObject->save();
 
         $albumObject = new Album();
         $albumObject->user_id = 1;
-        $albumObject->album_name = 'Album 3';
-        $albumObject->album_artist = 'Artist 3';
-        $albumObject->album_price = 79.90;
-        $albumObject->album_cover_path = '../storage/app/public/album3.jpg';
+        $albumObject->album_name = 'Sorry';
+        $albumObject->album_artist = 'Justin B';
+        $albumObject->album_price = 23.82;
+        $albumObject->album_cover_path = 'album3.jpg';
         $albumObject->save();
 
         $albumObject = new Album();
         $albumObject->user_id = 1;
-        $albumObject->album_name = 'Album 4';
-        $albumObject->album_artist = 'Artist 4';
-        $albumObject->album_price = 79.90;
-        $albumObject->album_cover_path = '../storage/app/public/album4.jpg';
+        $albumObject->album_name = 'Families Together';
+        $albumObject->album_artist = 'James Blunt';
+        $albumObject->album_price = 23.11;
+        $albumObject->album_cover_path = 'album4.jpg';
         $albumObject->save();
 
         $albumObject = new Album();
         $albumObject->user_id = 1;
-        $albumObject->album_name = 'Album 5';
-        $albumObject->album_artist = 'Artist 5';
-        $albumObject->album_price = 79.90;
-        $albumObject->album_cover_path = '../storage/app/public/album5.jpg';
+        $albumObject->album_name = 'Other Side';
+        $albumObject->album_artist = 'Adel';
+        $albumObject->album_price = 472.00;
+        $albumObject->album_cover_path = 'album5.jpg';
         $albumObject->save();
 
         $albumObject = new Album();
         $albumObject->user_id = 1;
-        $albumObject->album_name = 'Album 6';
-        $albumObject->album_artist = 'Artist 6';
+        $albumObject->album_name = 'Lady Soul';
+        $albumObject->album_artist = 'Aretha F';
         $albumObject->album_price = 79.90;
-        $albumObject->album_cover_path = '../storage/app/public/album6.jpg';
+        $albumObject->album_cover_path = 'album6.jpg';
         $albumObject->save();
     }
 }

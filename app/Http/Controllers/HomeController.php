@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use http\Exception;
 use Illuminate\Http\Request;
 use App\Models\Album;
 
@@ -28,31 +27,17 @@ class HomeController extends Controller
 
         $request->user()->authorizeRoles(['admin', 'ordinary']);
 
-        $albums = $this->getAlbums();
+        $album = new Album();
+        $albums = $album->getAlbums();
 
-        if ($request->user()->roles[0]['name'] === 'admin') {
+        if (!empty($albums)) {
 
-            return view('admin_home', ['albums' => $albums]);
+            if ($request->user()->roles[0]['name'] === 'admin') {
+
+                return view('admin_home', ['albums' => $albums]);
+            }
         }
 
         return view('home');
-
-    }
-
-    private function getAlbums () {
-
-        try {
-
-        $albums = Album::all();
-
-        if (null !== $albums) {
-
-        return $albums;
-
-        } } catch (\Exception $e) {
-            Log::error($e->getMessage());
-
-            return [];
-        }
     }
 }

@@ -22,6 +22,7 @@ class CreateAlbumsTable extends Migration
             $table->string('album_cover_path', 255);
             $table->foreign('user_id')->references('id')->on('users');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

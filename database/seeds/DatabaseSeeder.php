@@ -19,5 +19,8 @@ class DatabaseSeeder extends Seeder
 
         //Albums seeder
         $this->call(AlbumsTableSeeder::class);
+
+        //Reviews seeder
+        $this->call(AlbumReviewsTableSeeder::class);
     }
 }

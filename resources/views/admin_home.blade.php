@@ -84,7 +84,7 @@
 
                                 <!-- Modal Header -->
                                 <div class="modal-header">
-                                    <h4 class="modal-title">Edit Album with id: {{ $album->id }}</h4>
+                                    <h4 class="modal-title">Edit Album</h4>
                                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                                 </div>
 
@@ -128,7 +128,7 @@
 
                         <!-- Modal Header -->
                         <div class="modal-header">
-                            <h4 class="modal-title">Delete Album with id: {{ $album->id }}</h4>
+                            <h4 class="modal-title">Delete Album</h4>
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                         </div>
 

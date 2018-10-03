@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Review;
 use Illuminate\Http\Request;
 use App\Models\Album;
 
@@ -30,14 +31,14 @@ class HomeController extends Controller
         $album = new Album();
         $albums = $album->getAlbums();
 
-        if (!empty($albums)) {
+        if ($request->user()->roles[0]['name'] === 'admin') {
 
-            if ($request->user()->roles[0]['name'] === 'admin') {
-
-                return view('admin_home', ['albums' => $albums]);
-            }
+            return view('admin_home', ['albums' => $albums]);
         }
 
-        return view('home');
+        $review = new Review();
+        $reviews = $review::all();
+
+        return view('home', ['albums' => $albums, 'reviews' => $reviews]);
     }
 }

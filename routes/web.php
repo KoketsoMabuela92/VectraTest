@@ -22,3 +22,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::post('/edit', 'EditAlbumController@index')->name('edit');
 
 Route::post('/delete', 'DeleteAlbumController@index')->name('delete');
+
+Route::post('/insert', 'InsertAlbumController@index')->name('insert');

@@ -4,7 +4,50 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-10">
+                <button class="btn btn-outline-primary btn-lg" data-toggle="modal" data-target="#addModal">Add album</button>
                 <h1 class="text-success text-center">All Albums</h1>
+                <!-- The ADD Modal -->
+                <div class="modal" id="addModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <h4 class="modal-title">Add a new album</h4>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                <form method="post" action="insert" enctype="multipart/form-data">
+                                    @csrf
+                                    <div class="form-group">
+                                        <label for="album_name">Album Name:</label>
+                                        <input type="text" class="form-control" id="album_name" placeholder="Album Name" name="album_name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="album_artist">Album Artist:</label>
+                                        <input type="text" class="form-control" id="album_artist" placeholder="Album Artist" name="album_artist">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="album_price">Album Price:</label>
+                                        <input type="text" class="form-control" id="album_price" placeholder="Album Price" name="album_price">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="album_cover">Album Cover:</label>
+                                        <input type="file" class="form-control" id="album_cover" placeholder="Album Cover" name="album_cover">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Add album</button>
+                                </form>
+                            </div>
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
                 @foreach ($albums as $album)
                     <hr>
                     <div class="card">
@@ -12,7 +55,7 @@
                         <div class="card-body text-center">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <img class="img-responsive" src="/albums/{{$album->album_cover_path}}" alt="" height="110px" width="170px">
+                                    <img class="img-responsive" src="/storage/albums/{{$album->album_cover_path}}" alt="" height="110px" width="170px">
                                 </div>
                             </div>
                             <div class="row">
@@ -34,7 +77,7 @@
                         </div>
                     </div>
 
-                    <!-- The Modal -->
+                    <!-- The EDIT Modal -->
                     <div class="modal" id="editModal{{ $album->id }}">
                         <div class="modal-dialog">
                             <div class="modal-content">
@@ -71,7 +114,6 @@
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -79,7 +121,7 @@
             </div>
 
             @foreach($albums as $album)
-            <!-- The Modal -->
+            <!-- The DELETE Modal -->
             <div class="modal" id="deleteModal{{ $album->id }}">
                 <div class="modal-dialog">
                     <div class="modal-content">
@@ -112,4 +154,5 @@
             </div>
             @endforeach
         </div>
+    </div>
 @endsection

@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="13b093f4-8d4d-4f63-9f84-e2c5374bbd24" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/albumManagement/.env.example" afterPath="$PROJECT_DIR$/albumManagement/.env.example" />
+      <change beforePath="$PROJECT_DIR$/albumManagement/app/Http/Controllers/Auth/RegisterController.php" afterPath="$PROJECT_DIR$/albumManagement/app/Http/Controllers/Auth/RegisterController.php" />
+      <change beforePath="$PROJECT_DIR$/albumManagement/app/User.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/albumManagement/bootstrap/cache/.gitignore" afterPath="$PROJECT_DIR$/albumManagement/bootstrap/cache/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/albumManagement/config/auth.php" afterPath="$PROJECT_DIR$/albumManagement/config/auth.php" />
+      <change beforePath="$PROJECT_DIR$/albumManagement/config/services.php" afterPath="$PROJECT_DIR$/albumManagement/config/services.php" />
+      <change beforePath="$PROJECT_DIR$/albumManagement/database/factories/UserFactory.php" afterPath="$PROJECT_DIR$/albumManagement/database/factories/UserFactory.php" />
+      <change beforePath="$PROJECT_DIR$/albumManagement/database/migrations/2014_10_12_000000_create_users_table.php" afterPath="$PROJECT_DIR$/albumManagement/database/migrations/2014_10_12_000000_create_users_table.php" />
+      <change beforePath="$PROJECT_DIR$/albumManagement/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/albumManagement/database/seeds/DatabaseSeeder.php" />
+      <change beforePath="$PROJECT_DIR$/albumManagement/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/albumManagement/resources/views/welcome.blade.php" />
+      <change beforePath="$PROJECT_DIR$/albumManagement/routes/web.php" afterPath="$PROJECT_DIR$/albumManagement/routes/web.php" />
+      <change beforePath="$PROJECT_DIR$/albumManagement/storage/framework/.gitignore" afterPath="$PROJECT_DIR$/albumManagement/storage/framework/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/albumManagement/storage/framework/cache/.gitignore" afterPath="$PROJECT_DIR$/albumManagement/storage/framework/cache/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/albumManagement/storage/framework/sessions/.gitignore" afterPath="$PROJECT_DIR$/albumManagement/storage/framework/sessions/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/albumManagement/storage/framework/testing/.gitignore" afterPath="$PROJECT_DIR$/albumManagement/storage/framework/testing/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/albumManagement/storage/framework/views/.gitignore" afterPath="$PROJECT_DIR$/albumManagement/storage/framework/views/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/albumManagement/storage/logs/.gitignore" afterPath="$PROJECT_DIR$/albumManagement/storage/logs/.gitignore" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/albumManagement/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/albumManagement/resources/views/home.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1170">
+              <caret line="65" column="80" lean-forward="false" selection-start-line="65" selection-start-column="80" selection-end-line="65" selection-end-column="80" />
+              <folding>
+                <marker date="1538601599544" expanded="true" signature="9:22" ph="..." />
+                <marker date="1538601599544" expanded="true" signature="34:43" ph="..." />
+                <marker date="1538601599544" expanded="true" signature="184:201" ph="..." />
+                <marker date="1538601599544" expanded="true" signature="349:369" ph="..." />
+                <marker date="1538601599544" expanded="true" signature="632:656" ph="..." />
+                <marker date="1538601599544" expanded="true" signature="924:946" ph="..." />
+                <marker date="1538601599544" expanded="true" signature="1091:1112" ph="..." />
+                <marker date="1538601599544" expanded="true" signature="1401:1420" ph="..." />
+                <marker date="1538601599544" expanded="true" signature="1466:1497" ph="..." />
+                <marker date="1538601599544" expanded="true" signature="1545:1562" ph="..." />
+                <marker date="1538601599544" expanded="true" signature="1760:1782" ph="..." />
+                <marker date="1538601599544" expanded="true" signature="1781:1782" ph="..." />
+                <marker date="1538601599544" expanded="true" signature="1971:1992" ph="..." />
+                <marker date="1538601599544" expanded="true" signature="2570:2580" ph="..." />
+                <marker date="1538601599544" expanded="true" signature="2841:2853" ph="..." />
+                <marker date="1538601599544" expanded="true" signature="3490:3507" ph="..." />
+                <marker date="1538601599544" expanded="true" signature="3680:3692" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddReviewController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/albumManagement/app/Http/Controllers/AddReviewController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+              <folding>
+                <element signature="e#39#67#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/albumManagement/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="27" column="32" lean-forward="false" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EditAlbumController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/albumManagement/app/Http/Controllers/EditAlbumController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="28" />
+              <folding>
+                <element signature="e#40#68#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/albumManagement/app/Http/Controllers/HomeController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="42" column="5" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
+              <folding>
+                <element signature="e#40#62#0#PHP" expanded="true" />
+                <element signature="e#245#321#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>file</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/albumManagement/.env" />
+        <option value="$PROJECT_DIR$/albumManagement/.env.example" />
+        <option value="$PROJECT_DIR$/albumManagement/database/seeds/AlbumsTableSeeder.php" />
+        <option value="$PROJECT_DIR$/albumManagement/app/Http/Controllers/EditAlbumController.php" />
+        <option value="$PROJECT_DIR$/albumManagement/database/migrations/2018_09_26_005946_create_albums_table.php" />
+        <option value="$PROJECT_DIR$/albumManagement/app/Http/Controllers/DeleteAlbumController.php" />
+        <option value="$PROJECT_DIR$/albumManagement/app/Models/Album.php" />
+        <option value="$PROJECT_DIR$/albumManagement/app/Http/Controllers/InsertAlbumController.php" />
+        <option value="$PROJECT_DIR$/albumManagement/resources/views/admin_home.blade.php" />
+        <option value="$PROJECT_DIR$/albumManagement/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/albumManagement/app/Models/AlbumReview.php" />
+        <option value="$PROJECT_DIR$/albumManagement/database/seeds/AlbumReviewsTableSeeder.php" />
+        <option value="$PROJECT_DIR$/albumManagement/database/migrations/2018_10_03_195533_create_album_reviews_table.php" />
+        <option value="$PROJECT_DIR$/albumManagement/app/Models/Review.php" />
+        <option value="$PROJECT_DIR$/albumManagement/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/albumManagement/routes/web.php" />
+        <option value="$PROJECT_DIR$/albumManagement/resources/views/home.blade.php" />
+        <option value="$PROJECT_DIR$/albumManagement/app/Http/Controllers/AddReviewController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/albumManagement/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/composer" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/beyondcode/laravel-dump-server" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/albumManagement/vendor/phpunit/php-code-coverage" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="VectraTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VectraTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VectraTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VectraTest" type="462c0819:PsiDirectoryNode" />
+              <item name="albumManagement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VectraTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VectraTest" type="462c0819:PsiDirectoryNode" />
+              <item name="albumManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VectraTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VectraTest" type="462c0819:PsiDirectoryNode" />
+              <item name="albumManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VectraTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VectraTest" type="462c0819:PsiDirectoryNode" />
+              <item name="albumManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VectraTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VectraTest" type="462c0819:PsiDirectoryNode" />
+              <item name="albumManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/albumManagement/app/Models" />
+      <recent name="$PROJECT_DIR$/albumManagement/app" />
+      <recent name="$PROJECT_DIR$/albumManagement/storage/app/public/albums" />
+      <recent name="$PROJECT_DIR$/albumManagement/public/storage" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/albumManagement/public/albums" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13b093f4-8d4d-4f63-9f84-e2c5374bbd24" name="Default" comment="" />
+      <created>1537882673020</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537882673020</updated>
+      <workItem from="1537882674405" duration="1191000" />
+      <workItem from="1537959523027" duration="715000" />
+      <workItem from="1537999369529" duration="16000" />
+      <workItem from="1538333364490" duration="17334000" />
+      <workItem from="1538463211610" duration="34424000" />
+      <workItem from="1538650935475" duration="211000" />
+    </task>
+    <task id="LOCAL-00001" summary="[WIP] add albums seeder, and admin and ordinary user views">
+      <created>1538404225397</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1538404225397</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[WIP] add albums seeder, and admin and ordinary user views">
+      <created>1538404338347</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1538404338347</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="53891000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3026178" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1580984" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[WIP] add albums seeder, and admin and ordinary user views" />
+    <option name="LAST_COMMIT_MESSAGE" value="[WIP] add albums seeder, and admin and ordinary user views" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/albumManagement/resources/views/admin_home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="83" lean-forward="true" selection-start-line="27" selection-start-column="83" selection-end-line="27" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/database/seeds/UserTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/.env.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/.env.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/.env.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/.env.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/database/seeds/RoleTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="47" column="26" lean-forward="false" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/database/seeds/UserTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/resources/views/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="55" column="32" lean-forward="true" selection-start-line="55" selection-start-column="32" selection-end-line="57" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/routes/channels.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/routes/console.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_PLUGINS_DIR$/php/lib/php.jar!/stubs/Core/Core_c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2592">
+          <caret line="144" column="0" lean-forward="true" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1104">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="809" column="13" lean-forward="false" selection-start-line="809" selection-start-column="13" selection-end-line="809" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/resources/views/auth/verify.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/resources/views/auth/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/app/Http/Controllers/DeleteAlbumController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="21" />
+          <folding>
+            <element signature="e#39#67#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/vendor/laravel/framework/src/Illuminate/Http/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="379" column="17" lean-forward="false" selection-start-line="379" selection-start-column="13" selection-end-line="379" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="624" column="20" lean-forward="false" selection-start-line="624" selection-start-column="20" selection-end-line="624" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/vendor/symfony/http-foundation/File/UploadedFile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="200" column="20" lean-forward="false" selection-start-line="200" selection-start-column="20" selection-end-line="200" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/config/filesystems.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-565">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/storage/app/public/testingjpeg/jIeHe9O5QtFacDm0TAb3K15KSlZlT2L3LOjgRmtq.jpeg" />
+    <entry file="file://$PROJECT_DIR$/albumManagement/vendor/laravel/framework/src/Illuminate/Support/Facades/Storage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-367">
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/vendor/laravel/framework/src/Illuminate/Contracts/Filesystem/Filesystem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/app/Http/Controllers/InsertAlbumController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/resources/views/admin_home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="158" column="0" lean-forward="true" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="50" lean-forward="false" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/database/migrations/2018_10_03_200130_create_album_reviews_table.php" />
+    <entry file="file://$PROJECT_DIR$/albumManagement/app/Models/AlbumReview.php" />
+    <entry file="file://$PROJECT_DIR$/albumManagement/database/migrations/2018_09_26_005946_create_albums_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/database/seeds/AlbumsTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/database/seeds/AlbumReviewsTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="35" column="53" lean-forward="true" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/database/migrations/2018_10_03_195533_create_album_reviews_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="37" lean-forward="false" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+          <folding>
+            <element signature="e#7#45#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/app/Models/Album.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#30#69#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/app/Models/Role.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/app/Models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasRelationships.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="393" column="42" lean-forward="true" selection-start-line="393" selection-start-column="42" selection-end-line="393" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/app/Models/Review.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="42" column="5" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="e#40#62#0#PHP" expanded="true" />
+            <element signature="e#245#321#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="65" column="80" lean-forward="false" selection-start-line="65" selection-start-column="80" selection-end-line="65" selection-end-column="80" />
+          <folding>
+            <marker date="1538601599544" expanded="true" signature="9:22" ph="..." />
+            <marker date="1538601599544" expanded="true" signature="34:43" ph="..." />
+            <marker date="1538601599544" expanded="true" signature="184:201" ph="..." />
+            <marker date="1538601599544" expanded="true" signature="349:369" ph="..." />
+            <marker date="1538601599544" expanded="true" signature="632:656" ph="..." />
+            <marker date="1538601599544" expanded="true" signature="924:946" ph="..." />
+            <marker date="1538601599544" expanded="true" signature="1091:1112" ph="..." />
+            <marker date="1538601599544" expanded="true" signature="1401:1420" ph="..." />
+            <marker date="1538601599544" expanded="true" signature="1466:1497" ph="..." />
+            <marker date="1538601599544" expanded="true" signature="1545:1562" ph="..." />
+            <marker date="1538601599544" expanded="true" signature="1760:1782" ph="..." />
+            <marker date="1538601599544" expanded="true" signature="1781:1782" ph="..." />
+            <marker date="1538601599544" expanded="true" signature="1971:1992" ph="..." />
+            <marker date="1538601599544" expanded="true" signature="2570:2580" ph="..." />
+            <marker date="1538601599544" expanded="true" signature="2841:2853" ph="..." />
+            <marker date="1538601599544" expanded="true" signature="3490:3507" ph="..." />
+            <marker date="1538601599544" expanded="true" signature="3680:3692" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="27" column="32" lean-forward="false" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/app/Http/Controllers/EditAlbumController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="28" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albumManagement/app/Http/Controllers/AddReviewController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <element signature="e#39#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
